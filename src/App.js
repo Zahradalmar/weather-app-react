@@ -8,7 +8,7 @@ function App() {
       <SearchEngine />
 
       <footer>
-        <a href="https://github.com/Zahradalmar/weather-react" rel="noreferrer">
+        <a href="https://github.com/Zahradalmar/weather-app-react/tree/master/src" rel="noreferrer">
           Open-source code
         </a>{" "}
         by Zahra Mohamed
