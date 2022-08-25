@@ -52,20 +52,6 @@ hr {
   left: -13px;
 }
 
-.celsius-temperature {
-  text-decoration: none;
-}
-
-.fahrenheit-temperature {
-  text-decoration: none;
-}
-
-.units .active {
-  color: black;
-  text-decoration: none;
-  cursor: default;
-}
-
 .date-time {
   font-size: 12px;
   color: gray;
@@ -76,10 +62,11 @@ hr {
 
 .next-days {
   border: solid 1px #7c7877;
+  border-radius: 27px;
+  box-shadow: 1px 8px rgb(86 84 84 / 30%);
+  padding: 10px 35px;
+  margin: 20px 0;
 
-  border-radius: 4px;
-  padding: 10px 45px;
-  margin: 5px 0px;
   text-align: center;
   color: gray;
   background: linear-gradient(

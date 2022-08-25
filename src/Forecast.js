@@ -16,7 +16,7 @@ export default function Forecast(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="next-days col-md-2">
+        <div className="next-days col">
           <h4>Tue</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
@@ -26,9 +26,9 @@ export default function Forecast(props) {
           <strong className="high-temp">{20}°</strong>
           <span className="low-temp"> {17}°</span>
         </div>
-      </div>
-      <div className="row">
-        <div className="next-days col-md-2">
+      
+      
+        <div className="next-days col">
           <h4>Wed</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
@@ -38,9 +38,9 @@ export default function Forecast(props) {
           <strong className="high-temp">{20}°</strong>
           <span className="low-temp"> {17}°</span>
         </div>
-      </div>
-      <div className="row">
-        <div className="next-days col-md-2">
+      
+      
+        <div className="next-days col">
           <h4>Thru</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
@@ -50,9 +50,9 @@ export default function Forecast(props) {
           <strong className="high-temp">{19}°</strong>
           <span className="low-temp"> {20}°</span>
         </div>
-      </div>
-      <div className="row">
-        <div className="next-days col-md-2">
+      
+      
+        <div className="next-days col">
           <h4>Fri</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
@@ -62,9 +62,10 @@ export default function Forecast(props) {
           <strong className="high-temp">{13}°</strong>
           <span className="low-temp"> {12}°</span>
         </div>
-      </div>
-      <div className="row">
-        <div className="next-days col-sm-2">
+       
+      
+      
+        <div className="next-days col">
           <h4>Sat</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
@@ -74,9 +75,9 @@ export default function Forecast(props) {
           <strong className="high-temp">{23}°</strong>
           <span className="low-temp"> {13}°</span>
         </div>
-      </div>
-      <div className="row">
-        <div className="next-days col-md-2">
+      
+      
+        <div className="next-days col">
           <h4>Sun</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
