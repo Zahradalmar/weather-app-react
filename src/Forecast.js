@@ -17,7 +17,7 @@ export default function Forecast(props) {
     <div className="container">
       <div className="row">
         <div className="next-days col">
-          <h4>Tue</h4>
+          <h4>{day}</h4>
           <img
             src="http://openweathermap.org/img/wn/10d@2x.png"
             alt=""
